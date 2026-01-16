@@ -1,0 +1,100 @@
+ 1345  git push origin main
+ 1346  git branch
+ 1347  git remote -c
+ 1348  git remote -v
+ 1349  git push origin master
+ 1350  ls
+ 1351  git status
+ 1352  git commit -m "first commit"
+ 1353  git push origin main
+ 1354  git push origin master
+ 1355  git branch dev 
+ 1356  git branch test
+ 1357  git branch
+ 1358  git checkout dev
+ 1359  touch indexDev.html
+ 1360  git add .
+ 1361  git commit -m "dev commit"
+ 1362  git push origin dev
+ 1363  git branch
+ 1364  git branch test
+ 1365  git checkout  test
+ 1366  ls
+ 1367  touch test1.txt
+ 1368  ls
+ 1369  git add .
+ 1370  git commit -m "test commit"
+ 1371  git push origin test
+ 1372  git checkout dev
+ 1373  git status
+ 1374  git branch
+ 1375  ls
+ 1376  git checkout 
+ 1377  git checkout test
+ 1378  git merge dev
+ 1379  ls
+ 1380  git branch
+ 1381  git pull origin dev
+ 1382  git push merge dev
+ 1383  git push origin dev
+ 1384  git push origin test
+ 1385  git checkout dev
+ 1386  git pull origin test
+ 1387  ls
+ 1388  git push origin dev
+ 1389  git status
+ 1390  git checkout test
+ 1391  git push origin dev
+ 1392  ls
+ 1393  git brach
+ 1394  git branch
+ 1395  git checkout dev
+ 1396  git pull origin test
+ 1397  ls
+ 1398  git push origin dev
+ 1399  git status
+ 1400  git branch -d test
+ 1401  git branch -d dev
+ 1402  git brach
+ 1403  git branch
+ 1404  git checkout master
+ 1405  git branch -d dev
+ 1406  git checkout dev
+ 1407  git merge master
+ 1408  git checkout master
+ 1409  git merge dev
+ 1410  git branch -d dev
+ 1411  git push origin -d dev
+ 1412  git push origin -d test
+ 1413  git branch dev
+ 1414  toutch testdevbranch.txt
+ 1415  touch testdevbranch.txt
+ 1416  git status
+ 1417  git checkout master
+ 1418  rm testdevbranch.txt 
+ 1419  git status
+ 1420  git checkout dev
+ 1421  touch testdevbranch.txt
+ 1422  ls
+ 1423  git status
+ 1424  git checkout master
+ 1425  git add testdevbranch.txt 
+ 1426  git commit -m "add file to dev"
+ 1427  git status
+ 1428  git checkout master
+ 1429  git checkout dev
+ 1430  git checkout master
+ 1431  git checkout dev
+ 1432  git branch
+ 1433  git stash 
+ 1434  git staus
+ 1435  git status
+ 1436  git checkout dev
+ 1437  git checkout master
+ 1438  git stash pop
+ 1439  git status
+ 1440  histroy | tail -n 50
+ 1441  histroy 
+ 1442  history | tail -n 50
+ 1443  history | tail -n 100
+ 1444  history | tail -n 100 > myHistroy.txt
