@@ -98,3 +98,28 @@
  1442  history | tail -n 50
  1443  history | tail -n 100
  1444  history | tail -n 100 > myHistroy.txt
+ 1447  git tag -a v1.0 -m "Release v1.0"
+ 1448  git status
+ 1449  git add .
+ 1450  git commit -m "history"
+ 1451  git push origin master
+ 1452  git branch
+ 1453  git status
+ 1454  git push origin v1.0
+ 1455  git tag
+ 1456  git tag -d v1.0
+ 1457  git push origin -d v1.0
+ 1458  ls 
+ 1459  git tag
+1461  touch README.md
+ 1462  nano README.md 
+ 1463  cat README.md 
+ 1464  git add .
+ 1465  git commit -m "README file with image"
+ 1466  git push origin master
+ 1467  git pull origin master
+ 1468  git push origin master
+ 1469  git config pull.rebase false
+ 1470  git pull origin master
+ 1471  git push origin master
+
